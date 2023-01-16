@@ -3,7 +3,6 @@ Teraform Module to provision an EC2 instance that is running Apache.
 Not intended for production use. Just showcasing how to create a public module on terraform registry
 
 '''hcl
-
 terraform {
 
 }
