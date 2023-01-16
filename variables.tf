@@ -1,18 +1,18 @@
 variable "vpc_id" {
-    type=string
-  
+  type = string
+
 }
 
 variable "public_key" {
-    type = string
+  type = string
 }
 
 variable "instance_type" {
-    type = string
-    default = "t2.micro"
+  type    = string
+  default = "t2.micro"
 }
 
 variable "server_name" {
-    type = string
-    default = "Apache Example Server"
+  type    = string
+  default = "Apache Example Server"
 }
